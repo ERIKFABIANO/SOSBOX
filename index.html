@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>S.O.S BOX</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./icone.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">S.O.SBOX</p>
+  </div>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logosos.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logosos.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Início</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Trabalhos</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Sobre Nós</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contato</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" target="_blank" class="btn btn-secondary">
+        <span class="text text-1">Faça o Seu Orçamento</span>
+
+        <span class="text text-2" aria-hidden="true">Faça o seu Orçamento</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide 1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Telhado de <br>
+              Vidro Temperado
+            </h1>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja Mais</span>
+
+              <span class="text text-2" aria-hidden="true">Veja Mais</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide 2.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Janelas  <br>
+              e Porta de Correr
+            </h1>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja Mais</span>
+
+              <span class="text text-2" aria-hidden="true">Veja Mais</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide 3.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Tampo de Pia <br>
+              com Pelicula de Proteção
+            </h1>
+
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja Mais</span>
+
+              <span class="text text-2" aria-hidden="true">Veja Mais</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" class="hero-btn has-after">
+          <img src="./assets/images/janela.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Peça o Seu</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">S.O.S BOX</p>
+
+          <h2 class="headline-1 section-title">Uma Inovação em Forma de Vidro!</h2>
+
+          <p class="section-text">
+             Transforme seu espaço com elegância e qualidade! Vidraçaria que oferece soluções personalizadas em vidros, espelhos e box para banheiro. Beleza e funcionalidade em cada detalhe, trazendo transparência para sua vida!
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service01.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Banheiro</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Veja Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service02.jpeg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Portão</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Veja Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service03.jpeg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Escada</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Veja Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Sobre nós</p>
+
+            <h2 class="headline-1 section-title">Tornando sonhos transparentes.</h2>
+
+            <p class="section-text">
+              Desde 2014, a S.O.S BOX  tem sido a escolha confiável para transformar seus espaços com elegância e qualidade. Fundada com paixão pelo vidro, nossa missão é criar soluções inovadoras que transcendem expectativas. Do design moderno à instalação impecável, cada projeto reflete nossa dedicação em fornecer o melhor em vidraçaria.
+            </p>
+
+            <div class="contact-label">Chame No WhatsApp</div>
+
+            <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" target="_blank" class="body-1 contact-number hover-underline">+55 (048) 9 8448 3801</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Leais Mais</span>
+
+              <span class="text text-2" aria-hidden="true">Leais Mais</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/banner02.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/banner01.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label" id="menu">
+
+        <div class="special-dish-banner">
+          <iframe src="./assets/images/videoabout.mp4" width="940" height="800" loading="lazy" alt="special dish"
+            class="img-cover"></iframe>
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            
+
+            <p class="section-subtitle label-2">Trabalhos</p>
+
+            <h2 class="headline-1 section-title">Um Reflexo de Satisfação</h2>
+
+            <p class="section-text">
+              A SOS Box  se destaca como referência em excelência e inovação. Com mais de uma década de experiência, nossa equipe qualificada e comprometida oferece serviços incomparáveis. Desde instalações personalizadas até reparos precisos, cada projeto é tratado com cuidado e atenção aos detalhes. Garantimos não apenas transparência em nossos vidros, mas também na relação com nossos clientes. Conte com a SOS Box para elevar seus espaços, transformando ideias em realidade com o toque único do nosso serviço especializado
+            </p>
+
+
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+
+
+     
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="contact">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contato</h2>
+
+              <p class="contact-label">Faça seu Orçamento</p>
+
+              <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" target="_blank" class="body-1 contact-number hover-underline">+55 (048) 9 8448 3801</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Horário Manhã</p>
+
+              <p class="body-4">
+                Segunda a Sexta <br>
+                8.00 am - 18.00 pm
+              </p>
+
+             
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">PORQUE ESCOLHER-NOS
+          </p>
+
+          <h2 class="headline-1 section-title">Nosso Forte</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icone-fone.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Atendimento Rápido</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icone-martelo.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Manutenção</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icone-material.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Material de Qualidade</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icone-equipe.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Equipe Forte</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/bg-footer.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./icone.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          
+
+
+          <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" target="_blank" class="body-4 contact-link">Faça Seu Orçamento : +55 (048) 9 8448 3801</a>
+
+          <p class="body-4">
+            Aberto : 08:00 am - 18:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#home" class="label-2 footer-link hover-underline">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Trabalhos</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="label-2 footer-link hover-underline">Contato</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.instagram.com/sos.box1?igsh=N2s3bTV1eDE2ODV0" target="_blank" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://api.whatsapp.com/send/?phone=5548984483801&text&type=phone_number&app_absent=0" target="_blank" class="label-2 footer-link hover-underline">WhatsApp</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 S.O.SBOX. Todos os Direitos Reservados | Criado por <a href="https://github.com/ERIKFABIANO"
+            target="_blank" class="link">devcodeappe</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
